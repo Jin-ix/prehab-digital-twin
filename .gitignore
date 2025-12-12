@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment (CRUCIAL)
+venv/
+.venv/
+env/
+
+# Environment Variables (Security)
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# Large AI Models (Don't upload 100MB+ files)
+*.pt
+*.onnx
+yolov8n-pose.pt
+
+# OS specific files
+.DS_Store
+Thumbs.db
